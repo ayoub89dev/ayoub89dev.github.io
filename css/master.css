@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+html,body{
+    height: 100%;
+}
+body,body>div{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body>div{
+    flex-direction: column;
+}
+body>div a{
+    text-decoration: none;
+    color:#3b53a0;
+}
+body>div a:hover{
+    opacity: .7;
+}
