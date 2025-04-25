@@ -27,7 +27,7 @@ document.body.onscroll=()=>{
         document.querySelector("header").style.boxShadow="0px 1px 0px 0 black";
     else document.querySelector("header").style.boxShadow="none";
     if( ((document.body.parentNode.scrollTop+50) >= document.querySelector(".fs").offsetHeight) && ((document.body.parentNode.scrollTop+50) <= (document.querySelector(".fs").offsetHeight+document.querySelector(".about").offsetHeight ))){
-        document.querySelector("div.img").style.backgroundImage='url("images/DDD.png")';
+        document.querySelector("div.img").style.backgroundImage='url("images/DDD.webp")';
         setTimeout(()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.png")';},1000);
     }
 };
