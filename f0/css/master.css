@@ -68,7 +68,7 @@ main div.fs{
     justify-content: center;
     align-items: center;
     color:white;
-    background-image: url('../images/b1.webp');
+    background-image: url('../images/b1.png');
     background-position-y: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -134,7 +134,7 @@ main div.about div.img{
     width:250px;
     height:250px;
     background-color: var(--main-color);
-    background-image: url('../images/D.png');
+    background-image: url('../images/D.webp');
     background-position-x: center;
     background-position-y: bottom;
     background-size: 100%;
