@@ -134,6 +134,8 @@ main div.about div.img{
     width:250px;
     height:250px;
     background-color: var(--main-color);
+    background-image: url('../images/DDD.webp');
+    background-image: url('../images/DD.webp');
     background-image: url('../images/D.webp');
     background-position-x: center;
     background-position-y: bottom;
