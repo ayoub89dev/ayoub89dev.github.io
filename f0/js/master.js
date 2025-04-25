@@ -28,12 +28,12 @@ document.body.onscroll=()=>{
     else document.querySelector("header").style.boxShadow="none";
     if( ((document.body.parentNode.scrollTop+50) >= document.querySelector(".fs").offsetHeight) && ((document.body.parentNode.scrollTop+50) <= (document.querySelector(".fs").offsetHeight+document.querySelector(".about").offsetHeight ))){
         document.querySelector("div.img").style.backgroundImage='url("images/DDD.webp")';
-        setTimeout(()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.png")';},1000);
+        setTimeout(()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.webp")';},1000);
     }
 };
 
-document.querySelector("div.img").onmouseover=()=>{document.querySelector("div.img").style.backgroundImage='url("images/DD.png")';};
-document.querySelector("div.img").onmouseout=()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.png")';};
+document.querySelector("div.img").onmouseover=()=>{document.querySelector("div.img").style.backgroundImage='url("images/DD.webp")';};
+document.querySelector("div.img").onmouseout=()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.webp")';};
 
 document.querySelectorAll("div.gallery img").forEach((v)=>{
     v.onclick=()=>{
