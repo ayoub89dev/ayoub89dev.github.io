@@ -9,7 +9,7 @@ document.addEventListener("click",(el)=>{
 
 function a(){
     let fs=document.querySelector("main div.fs");
-    fs.style.backgroundImage=`url("images/b${(Math.floor(Math.random()*4)+1)}.png")`;
+    fs.style.backgroundImage=`url("images/b${(Math.floor(Math.random()*4)+1)}.webp")`;
     fs.classList.remove("c");
     fs.classList.add("b");
     setTimeout(() => {
@@ -50,7 +50,7 @@ document.querySelector("div.galleryV .close").onclick=(e)=>{
     e.currentTarget.parentNode.parentNode.style.display="none";
     document.body.style.overflowY="scroll";
 };
-let galA=["a1.png","a2.png","a3.png"];
+let galA=["a1.webp","a2.webp","a3.webp"];
 document.querySelector("div.galleryV .left").onclick=(e)=>{
     let imgpath=galA[((galA.indexOf(e.currentTarget.parentNode.parentNode.getAttribute("imgP"))-1)>=0 ? (galA.indexOf(e.currentTarget.parentNode.parentNode.getAttribute("imgP"))-1) : (galA.length-1))];
     e.currentTarget.parentNode.style.backgroundImage=`url('images/${imgpath}')`;
