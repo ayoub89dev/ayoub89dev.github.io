@@ -27,13 +27,13 @@ document.body.onscroll=()=>{
         document.querySelector("header").style.boxShadow="0px 1px 0px 0 black";
     else document.querySelector("header").style.boxShadow="none";
     if( ((document.body.parentNode.scrollTop+50) >= document.querySelector(".fs").offsetHeight) && ((document.body.parentNode.scrollTop+50) <= (document.querySelector(".fs").offsetHeight+document.querySelector(".about").offsetHeight ))){
-        document.querySelector("div.img").style.backgroundImage='url("images/DDD.webp")';
-        setTimeout(()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.webp")';},1000);
+        document.querySelector("div.img").style.backgroundImage='url("images/ddd0.webp")';
+        setTimeout(()=>{document.querySelector("div.img").style.backgroundImage='url("images/d0.webp")';},1000);
     }
 };
 
-document.querySelector("div.img").onmouseover=()=>{document.querySelector("div.img").style.backgroundImage='url("images/DD.webp")';};
-document.querySelector("div.img").onmouseout=()=>{document.querySelector("div.img").style.backgroundImage='url("images/D.webp")';};
+document.querySelector("div.img").onmouseover=()=>{document.querySelector("div.img").style.backgroundImage='url("images/dd0.webp")';};
+document.querySelector("div.img").onmouseout=()=>{document.querySelector("div.img").style.backgroundImage='url("images/d0.webp")';};
 
 document.querySelectorAll("div.gallery img").forEach((v)=>{
     v.onclick=()=>{
